@@ -6,7 +6,7 @@ import java.util.Map;
 
 public interface Deck {
 
-    List<Card> getCard();
+    List<Card> getCards();
 
     Deck deckFactory();
 
