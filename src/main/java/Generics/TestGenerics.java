@@ -2,7 +2,7 @@ package Generics;
 
 public class TestGenerics {
 
-    // Generic methods and Bounded tpe parameter
+    // Generic methods and Bounded type parameter
     public static <T extends Comparable<T>> int countGreaterThan(T[] anArray, T elem) {
         int count = 0;
         for (T e : anArray) {
